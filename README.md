@@ -81,7 +81,6 @@ Environment variables:
 
 ## Screenshot
 ![Codex Notify](./assets/screenshot.png)
-Replace `./assets/screenshot.png` with your own screenshot if you'd like a real capture.
 
 ## Troubleshooting
 - No notification: check `~/.codex/config.toml` and macOS notification permissions.
@@ -90,6 +89,7 @@ Replace `./assets/screenshot.png` with your own screenshot if you'd like a real 
 - Icon looks like Terminal: expected when using execute-only activation.
 
 ## Changelog
+- 0.1.4 - Add real screenshot.
 - 0.1.3 - Custom sound support and README tweaks.
 - 0.1.2 - README polish, FAQ, security note, screenshot placeholder.
 - 0.1.1 - README polish and clarified defaults.
