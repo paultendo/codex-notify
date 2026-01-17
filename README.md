@@ -71,6 +71,8 @@ Example (louder sound):
 export CODEX_NOTIFY_SOUND="Funk"
 ```
 
+If your sound path or name contains spaces, quote it in your shell.
+
 ## Notes
 - Some macOS versions ignore `-appIcon` and use the sender app icon instead.
 - Execute-only activation is the most reliable path; it may show the Terminal icon.
@@ -95,6 +97,7 @@ export CODEX_NOTIFY_SOUND="Funk"
 - Icon looks like Terminal: expected when using execute-only activation.
 
 ## Changelog
+- 0.1.6 - Clarify quoting for sound paths.
 - 0.1.5 - Add loud-sound example.
 - 0.1.4 - Add real screenshot.
 - 0.1.3 - Custom sound support and README tweaks.
